@@ -102,52 +102,12 @@
   ],
   "products": [
     {
-      "productName": "Product-1",
-      "productDescription": "This is Product number one.",
-      "manufacturer": "ProdWip",
-      "price": "2500",
-      "quantity": 2,
-      "id": 1589082223037
-    },
-    {
-      "productName": "Product-2",
-      "productDescription": "This is product number two.",
-      "manufacturer": "ProdWip",
-      "price": "1500",
-      "quantity": 5,
-      "id": 1589082299949
-    },
-    {
-      "id": 1589082401749,
-      "productName": "Product-3",
-      "productDescription": "This is product number three.",
-      "manufacturer": "WipProd Ltd.",
-      "price": "2000",
-      "quantity": 2
-    },
-    {
-      "productName": "FifthProduct",
-      "productDescription": "This is the fifth product.",
-      "manufacturer": "WipProd",
-      "price": "5000",
-      "quantity": 5,
-      "id": 1589082636277
-    },
-    {
       "productName": "Product-4",
       "productDescription": "This is product number four.",
       "manufacturer": "WipProd",
       "price": "4500",
       "quantity": 4,
       "id": 1589210116030
-    },
-    {
-      "productName": "Two Product",
-      "productDescription": "This is product number two, added second time, with some additional features.",
-      "manufacturer": "ProdWip",
-      "price": "200",
-      "quantity": 10,
-      "id": 1589210188616
     },
     {
       "productName": "Third Product",
@@ -763,6 +723,466 @@
       "timeStamp": 1589259322352,
       "productName": "Two Product",
       "id": 123
+    },
+    {
+      "timeStamp": 1649814824107,
+      "productName": "Product-1",
+      "id": 124
+    },
+    {
+      "timeStamp": 1649814824107,
+      "productName": "Product-1",
+      "id": 125
+    },
+    {
+      "timeStamp": 1649839251388,
+      "productName": "Product-4",
+      "id": 126
+    },
+    {
+      "timeStamp": 1649839251389,
+      "productName": "Product-4",
+      "id": 127
+    },
+    {
+      "timeStamp": 1649841349135,
+      "productName": "Product-4",
+      "id": 128
+    },
+    {
+      "timeStamp": 1649841349136,
+      "productName": "Product-4",
+      "id": 129
+    },
+    {
+      "timeStamp": 1649841387081,
+      "productName": "Product-4",
+      "id": 130
+    },
+    {
+      "timeStamp": 1649841387081,
+      "productName": "Product-4",
+      "id": 131
+    },
+    {
+      "timeStamp": 1649841400757,
+      "productName": "Product-4",
+      "id": 132
+    },
+    {
+      "timeStamp": 1649841400758,
+      "productName": "Product-4",
+      "id": 133
+    },
+    {
+      "timeStamp": 1649841409649,
+      "productName": "Product-4",
+      "id": 134
+    },
+    {
+      "timeStamp": 1649841409650,
+      "productName": "Product-4",
+      "id": 135
+    },
+    {
+      "timeStamp": 1649841429078,
+      "productName": "Product-4",
+      "id": 136
+    },
+    {
+      "timeStamp": 1649841429079,
+      "productName": "Product-4",
+      "id": 137
+    },
+    {
+      "timeStamp": 1649841724848,
+      "productName": "Product-4",
+      "id": 138
+    },
+    {
+      "timeStamp": 1649841724848,
+      "productName": "Product-4",
+      "id": 139
+    },
+    {
+      "timeStamp": 1649841780153,
+      "productName": "Product-4",
+      "id": 140
+    },
+    {
+      "timeStamp": 1649841780153,
+      "productName": "Product-4",
+      "id": 141
+    },
+    {
+      "timeStamp": 1649841878927,
+      "productName": "Product-4",
+      "id": 142
+    },
+    {
+      "timeStamp": 1649841878928,
+      "productName": "Product-4",
+      "id": 143
+    },
+    {
+      "timeStamp": 1649841897947,
+      "productName": "Product-4",
+      "id": 144
+    },
+    {
+      "timeStamp": 1649841897947,
+      "productName": "Product-4",
+      "id": 145
+    },
+    {
+      "timeStamp": 1649841917697,
+      "productName": "Product-4",
+      "id": 146
+    },
+    {
+      "timeStamp": 1649841917697,
+      "productName": "Product-4",
+      "id": 147
+    },
+    {
+      "timeStamp": 1649841948481,
+      "productName": "Product-4",
+      "id": 148
+    },
+    {
+      "timeStamp": 1649841948482,
+      "productName": "Product-4",
+      "id": 149
+    },
+    {
+      "timeStamp": 1649841959768,
+      "productName": "Product-4",
+      "id": 150
+    },
+    {
+      "timeStamp": 1649841959768,
+      "productName": "Product-4",
+      "id": 151
+    },
+    {
+      "timeStamp": 1649841986992,
+      "productName": "Product-4",
+      "id": 152
+    },
+    {
+      "timeStamp": 1649841986993,
+      "productName": "Product-4",
+      "id": 153
+    },
+    {
+      "timeStamp": 1649841995357,
+      "productName": "Product-4",
+      "id": 154
+    },
+    {
+      "timeStamp": 1649841995357,
+      "productName": "Product-4",
+      "id": 155
+    },
+    {
+      "timeStamp": 1649842001758,
+      "productName": "Product-4",
+      "id": 156
+    },
+    {
+      "timeStamp": 1649842001759,
+      "productName": "Product-4",
+      "id": 157
+    },
+    {
+      "timeStamp": 1649842020322,
+      "productName": "Product-4",
+      "id": 158
+    },
+    {
+      "timeStamp": 1649842020323,
+      "productName": "Product-4",
+      "id": 159
+    },
+    {
+      "timeStamp": 1649842190723,
+      "productName": "Product-4",
+      "id": 160
+    },
+    {
+      "timeStamp": 1649842190724,
+      "productName": "Product-4",
+      "id": 161
+    },
+    {
+      "timeStamp": 1649842199112,
+      "productName": "Product-4",
+      "id": 162
+    },
+    {
+      "timeStamp": 1649842199112,
+      "productName": "Product-4",
+      "id": 163
+    },
+    {
+      "timeStamp": 1649842274619,
+      "productName": "Product-4",
+      "id": 164
+    },
+    {
+      "timeStamp": 1649842274621,
+      "productName": "Product-4",
+      "id": 165
+    },
+    {
+      "timeStamp": 1649842295491,
+      "productName": "Product-4",
+      "id": 166
+    },
+    {
+      "timeStamp": 1649842295492,
+      "productName": "Product-4",
+      "id": 167
+    },
+    {
+      "timeStamp": 1649842330680,
+      "productName": "Product-4",
+      "id": 168
+    },
+    {
+      "timeStamp": 1649842330682,
+      "productName": "Product-4",
+      "id": 169
+    },
+    {
+      "timeStamp": 1649842361127,
+      "productName": "Product-4",
+      "id": 170
+    },
+    {
+      "timeStamp": 1649842361127,
+      "productName": "Product-4",
+      "id": 171
+    },
+    {
+      "timeStamp": 1649842398381,
+      "productName": "Product-4",
+      "id": 172
+    },
+    {
+      "timeStamp": 1649842398382,
+      "productName": "Product-4",
+      "id": 173
+    },
+    {
+      "timeStamp": 1649842417829,
+      "productName": "Product-4",
+      "id": 174
+    },
+    {
+      "timeStamp": 1649842417830,
+      "productName": "Product-4",
+      "id": 175
+    },
+    {
+      "timeStamp": 1649842435867,
+      "productName": "Product-4",
+      "id": 176
+    },
+    {
+      "timeStamp": 1649842435868,
+      "productName": "Product-4",
+      "id": 177
+    },
+    {
+      "timeStamp": 1649842445904,
+      "productName": "Product-4",
+      "id": 178
+    },
+    {
+      "timeStamp": 1649842445905,
+      "productName": "Product-4",
+      "id": 179
+    },
+    {
+      "timeStamp": 1649842462973,
+      "productName": "Product-4",
+      "id": 180
+    },
+    {
+      "timeStamp": 1649842462974,
+      "productName": "Product-4",
+      "id": 181
+    },
+    {
+      "timeStamp": 1649842502210,
+      "productName": "Product-4",
+      "id": 182
+    },
+    {
+      "timeStamp": 1649842502210,
+      "productName": "Product-4",
+      "id": 183
+    },
+    {
+      "timeStamp": 1649842514081,
+      "productName": "Product-4",
+      "id": 184
+    },
+    {
+      "timeStamp": 1649842514081,
+      "productName": "Product-4",
+      "id": 185
+    },
+    {
+      "timeStamp": 1649842521772,
+      "productName": "Product-4",
+      "id": 186
+    },
+    {
+      "timeStamp": 1649842521773,
+      "productName": "Product-4",
+      "id": 187
+    },
+    {
+      "timeStamp": 1649842525002,
+      "productName": "Product-4",
+      "id": 188
+    },
+    {
+      "timeStamp": 1649842525002,
+      "productName": "Product-4",
+      "id": 189
+    },
+    {
+      "timeStamp": 1649842538818,
+      "productName": "Product-4",
+      "id": 190
+    },
+    {
+      "timeStamp": 1649842538818,
+      "productName": "Product-4",
+      "id": 191
+    },
+    {
+      "timeStamp": 1649842551600,
+      "productName": "Product-4",
+      "id": 192
+    },
+    {
+      "timeStamp": 1649842551600,
+      "productName": "Product-4",
+      "id": 193
+    },
+    {
+      "timeStamp": 1649842555767,
+      "productName": "Product-4",
+      "id": 194
+    },
+    {
+      "timeStamp": 1649842555767,
+      "productName": "Product-4",
+      "id": 195
+    },
+    {
+      "timeStamp": 1649842572127,
+      "productName": "Product-4",
+      "id": 196
+    },
+    {
+      "timeStamp": 1649842572128,
+      "productName": "Product-4",
+      "id": 197
+    },
+    {
+      "timeStamp": 1649842582483,
+      "productName": "Product-4",
+      "id": 198
+    },
+    {
+      "timeStamp": 1649842582484,
+      "productName": "Product-4",
+      "id": 199
+    },
+    {
+      "timeStamp": 1649842592238,
+      "productName": "Product-4",
+      "id": 200
+    },
+    {
+      "timeStamp": 1649842592239,
+      "productName": "Product-4",
+      "id": 201
+    },
+    {
+      "timeStamp": 1649842599320,
+      "productName": "Product-4",
+      "id": 202
+    },
+    {
+      "timeStamp": 1649842599320,
+      "productName": "Product-4",
+      "id": 203
+    },
+    {
+      "timeStamp": 1649842608109,
+      "productName": "Product-4",
+      "id": 204
+    },
+    {
+      "timeStamp": 1649842608110,
+      "productName": "Product-4",
+      "id": 205
+    },
+    {
+      "timeStamp": 1649842617142,
+      "productName": "Product-4",
+      "id": 206
+    },
+    {
+      "timeStamp": 1649842617143,
+      "productName": "Product-4",
+      "id": 207
+    },
+    {
+      "timeStamp": 1649842655631,
+      "productName": "Product-4",
+      "id": 208
+    },
+    {
+      "timeStamp": 1649842655631,
+      "productName": "Product-4",
+      "id": 209
+    },
+    {
+      "timeStamp": 1649842669057,
+      "productName": "Product-4",
+      "id": 210
+    },
+    {
+      "timeStamp": 1649842669057,
+      "productName": "Product-4",
+      "id": 211
+    },
+    {
+      "timeStamp": 1649842741279,
+      "productName": "Two Product",
+      "id": 212
+    },
+    {
+      "timeStamp": 1649842741279,
+      "productName": "Two Product",
+      "id": 213
+    },
+    {
+      "timeStamp": 1649842766336,
+      "productName": "Two Product",
+      "id": 214
+    },
+    {
+      "timeStamp": 1649842766336,
+      "productName": "Two Product",
+      "id": 215
     }
   ]
 }

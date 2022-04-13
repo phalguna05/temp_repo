@@ -379,43 +379,7 @@ exports[`About Page Snapshot renders correctly 1`] = `
              </Row>
            </div>
          </Container>
-         <footer>
-           <Navbar
-             bg="dark"
-             className="mt-5 mb-0"
-             collapseOnSelect={false}
-             expand="lg"
-             variant="dark"
-           >
-             <nav
-               className="mt-5 mb-0 navbar navbar-expand-lg navbar-dark bg-dark"
-             >
-               <Container
-                 fluid={false}
-               >
-                 <div
-                   className="container"
-                 >
-                   <NavbarBrand
-                     href="#"
-                   >
-                     <a
-                       className="navbar-brand"
-                       href="#"
-                     >
-                       React JS Project made by
-                       <a
-                         href="https://github.com/swarajlaha"
-                       >
-                         Swaraj Laha
-                       </a>
-                     </a>
-                   </NavbarBrand>
-                 </div>
-               </Container>
-             </nav>
-           </Navbar>
-         </footer>
+
        </div>
      </AboutPage>
 `;
