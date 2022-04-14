@@ -35,7 +35,6 @@ class SignInForm extends React.Component {
 			>
 				{({
 					errors,
-					status,
 					touched,
 					handleChange,
 					handleSubmit,
@@ -44,7 +43,13 @@ class SignInForm extends React.Component {
 					values,
 				}) => (
 					<Form onSubmit={handleSubmit}>
-						<Form.Group style={{ textAlign: 'left', fontFamily: 'sans-serif' }}>
+						<Form.Group
+							style={{
+								textAlign: 'left',
+								fontFamily: 'sans-serif',
+								marginBottom: '10px',
+							}}
+						>
 							<Form.Label>User ID</Form.Label>
 							<Form.Control
 								name='userId'
@@ -63,7 +68,13 @@ class SignInForm extends React.Component {
 								className='invalid-feedback'
 							/>
 						</Form.Group>
-						<Form.Group style={{ textAlign: 'left', fontFamily: 'sans-serif' }}>
+						<Form.Group
+							style={{
+								textAlign: 'left',
+								fontFamily: 'sans-serif',
+								marginBottom: '10px',
+							}}
+						>
 							<Form.Label>Password</Form.Label>
 							<Form.Control
 								name='password'

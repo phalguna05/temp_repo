@@ -6,6 +6,7 @@ const styles = {
 	formGroup: {
 		textAlign: 'left',
 		fontFamily: 'sans-serif',
+		marginBottom: '15px',
 	},
 	buttonGroup: {
 		textAlign: 'left',

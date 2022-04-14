@@ -34,11 +34,12 @@ const AboutPage = () => {
 				variant='dark'
 				style={{
 					backgroundSize: 'cover',
-					height: '94vh',
+					height: '89vh',
 					width: '100%',
 					maxWidth: '1440px',
 					margin: '0',
 					padding: '0',
+					marginTop: '5vh',
 				}}
 			>
 				{carouselItemList.map((item, index) => (

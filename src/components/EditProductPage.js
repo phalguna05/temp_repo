@@ -34,7 +34,7 @@ class EditProductPage extends React.Component {
 	}
 	render() {
 		return (
-			<div>
+			<div style={{ height: '100vh' }}>
 				<Header />
 				<Container>
 					<Row>

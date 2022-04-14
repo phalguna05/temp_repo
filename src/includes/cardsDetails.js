@@ -6,10 +6,6 @@ import { withRouter } from 'react-router-dom';
 import ProductApi from '../data/ProductApi';
 
 class CardsDetails extends React.Component {
-	constructor(props) {
-		super(props);
-	}
-
 	render() {
 		if (this.props.product.productName !== undefined) {
 			ProductApi.addProductView(this.props.product.productName);

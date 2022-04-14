@@ -75,20 +75,17 @@ export default class CardsView extends React.Component {
 			<Container
 				style={{ display: 'flex', flexDirection: 'column', marginTop: '40px' }}
 			>
-				<Form>
-					<Form.Row>
-						<Form.Group
-							controlId='formGridEmail'
-							style={{ width: '40%', marginInline: 'auto' }}
-						>
-							<Form.Control
-								type='text'
-								placeholder='Search Product'
-								onChange={this.onChangeHandler}
-							/>
-						</Form.Group>
-					</Form.Row>
-				</Form>
+				<Form.Group
+					controlId='formGridEmail'
+					style={{ width: '40%', marginInline: 'auto', marginBottom: '15px' }}
+				>
+					<Form.Control
+						type='text'
+						placeholder='Search Product'
+						onChange={this.onChangeHandler}
+					/>
+				</Form.Group>
+
 				<Card
 					style={{
 						marginBottom: '10px',
@@ -127,12 +124,12 @@ export default class CardsView extends React.Component {
 				</Card>
 
 				<Table
-					striped
 					style={{
 						backgroundColor: '#feffff',
 						boxShadow:
 							'0 5px 10px rgba(154, 160, 185, 0.05),0 15px 40px rgba(166, 173, 201, 0.2)',
 						border: 'none',
+						padding: '10px',
 					}}
 				>
 					<thead>
@@ -142,7 +139,7 @@ export default class CardsView extends React.Component {
 							{this.state.columns.price ? <th>Price</th> : null}
 							{this.state.columns.quantity ? <th>Quantity</th> : null}
 							{this.state.columns.checkToSelect ? (
-								<th>Check to Select</th>
+								<th>Check to Delete</th>
 							) : null}
 						</tr>
 					</thead>

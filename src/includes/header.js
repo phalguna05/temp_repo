@@ -2,7 +2,6 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { withRouter } from 'react-router-dom';
 import UserActions from '../actions/UserActions';
 import UserApi from '../data/UserApi';
@@ -34,30 +33,26 @@ class Header extends React.Component {
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />
 					<Navbar.Collapse id='basic-navbar-nav'>
-						<Nav className='mr-auto' style={{ fontWeight: 'bold' }}>
+						<Nav
+							className='mr-auto'
+							style={{
+								fontWeight: 'bold',
+								display: 'flex',
+								justifyContent: 'space-between',
+							}}
+						>
 							<Nav.Link href='/'>About</Nav.Link>
-							<NavDropdown title='Products' id='basic-nav-dropdown'>
-								<NavDropdown.Item href='/viewProducts'>
-									View Products
-								</NavDropdown.Item>
-								<NavDropdown.Item href='/topViewedProducts'>
-									Top Viewed Products
-								</NavDropdown.Item>
-								{currentUser ? (
-									<NavDropdown.Item href='/addNewProduct'>
-										Add New Products
-									</NavDropdown.Item>
-								) : null}
-							</NavDropdown>
+							<Nav.Link href='/viewProducts'>ViewProducts</Nav.Link>
+							<Nav.Link href='/topViewedProducts'>TopViewedProducts</Nav.Link>
+							{currentUser ? (
+								<>
+									<Nav.Link href='/addNewProduct'>AddNewProducts</Nav.Link>
+									<Nav.Link href={`/userDetails/${this.state.user.id}`}>
+										Profile
+									</Nav.Link>
+								</>
+							) : null}
 						</Nav>
-						{currentUser ? (
-							<Navbar.Text>
-								<i>Hello,</i>&nbsp;
-								<a href={`/userDetails/${this.state.user.id}`}>
-									{this.state.user.firstName}&nbsp;
-								</a>
-							</Navbar.Text>
-						) : null}
 					</Navbar.Collapse>
 					{currentUser ? (
 						<Button
